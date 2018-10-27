@@ -11,7 +11,7 @@ void main()
 	int y=15;
 	printf("\n Values before swapping");
 	printf("\n X: %d\n Y: %d\n",x,y);
-        swap();
+        swap(&x,&y);
 	printf("\n Values after swapping");
 	printf("\n X: %d\n Y: %d \n",x,y);
 }
